@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Root>
+	<LoginWithValidUserValidPass>
+		<url>https://www.saucedemo.com</url>    
+		<username>standard_user</username>    
+		<password>secret_sauce</password>    
+		<product>Products</product>  
+	</LoginWithValidUserValidPass> 
+
+	<LoginWithValidUserValidPass>
+		<url>https://www.saucedemo.com</url>    
+		<username>problem_user</username>    
+		<password>secret_sauce</password>    
+		<product>Products</product>  
+	</LoginWithValidUserValidPass>
+	
+	<LoginWithInvalidUserInvalidPass>
+		<url>https://www.saucedemo.com</url>    
+		<username>invalid_user</username>    
+		<password>invalid_pass</password>    
+		<message>Epic sadface: Username and password do not match</message>  
+	</LoginWithInvalidUserInvalidPass>
+</Root>
